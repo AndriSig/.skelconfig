@@ -80,6 +80,7 @@ highlight ColorColumn ctermbg=darkgray
 " Don't use Ex mode, use Q for formatting
 map Q gq
 map <C-n> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 nnoremap <silent> <Leader>/ :nohlsearch<CR>
 nnoremap <F5> :GundoToggle<CR>
 filetype plugin indent on
